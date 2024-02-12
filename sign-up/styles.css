@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E9ECF2;
+	font-family: arial;
+}
+
+body a {
+	color: blue;
+}
+
+section {
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+
+/* Sign Up form Design */
+
+.form-design {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.container {
+	background-color: #fff;
+	max-width: 400px;
+	width: 100%;
+	padding: 35px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #bcc5d3;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.main .form .name .first {
+	height: 45px;
+	width: 47%;
+	margin-top: 30px;
+	border: 1px solid #589AF0;
+	border-radius: 3px;
+	outline-color: #589AF0;
+	margin-right: 13px;
+}
+
+.main .form .name .first {
+	font-size: 16px;
+	padding: 10px;
+}
+
+.main .form .name .last {
+	height: 45px;
+	width: 47%;
+	margin-top: 30px;
+	border: 1px solid #589AF0;
+	outline-color: #589AF0;
+	border-radius: 3px;
+}
+
+.main .form .name .last{
+	font-size: 16px;
+	padding: 10px;
+}
+
+.main .form .email input {
+	height: 45px;
+	width: 100%;
+	margin-top: 25px;
+	border: 1px solid #589AF0;
+	outline-color: #589AF0;
+	border-radius: 3px;
+}
+
+.main .form .email input {
+	font-size: 16px;
+	padding: 10px;
+}
+
+.main .form .password input {
+	height: 45px;
+	width: 100%;
+	border: 1px solid #589AF0;
+	margin-top: 25px;
+	border-radius: 3px;
+	outline-color: #589AF0;
+}
+
+.main .form .password input {
+	font-size: 16px;
+	padding: 10px;
+}
+
+.main .form .box {
+	margin-top: 25px;
+}
+
+.main .form .box input {
+	margin-right: 5px;
+}
+
+.main .form .sign-up-button button {
+	width: 100%;
+	height: 45px;
+	margin-top: 20px;
+	border: none;
+	background-color: #0060F3;
+	border-radius: 3px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #fff;
+}
+
+.main .form .sign-up-button button:hover {
+	background-color: #115CC0;
+	transition: 0.10s;
+}
+
+.main .form .login {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.main .form .login span a {
+	color: blue;
+	text-decoration: none;
+}
+
+.main .form .login span a:hover {
+text-decoration: underline;
+}
+
+.main .form .line {
+	background-color: #BCC5D3;
+	width: 100%;
+	height: 1px;
+	margin-top: 35px;
+	position: relative;
+}
+
+.main .form .line p {
+	position: absolute;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 6px;
+	display: inline;
+	margin-top: -15px;
+	margin-left: 150px;
+}
+
+.form .signup-facebook button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  margin-top: 35px;
+  background-color: #4267B2;
+  border: 1px solid #8c8281;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form .signup-facebook .facebook {
+  font-size: 26px;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 15px;
+  color: #4267B2;
+}
+
+.form .signup-facebook span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form .signup-google button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  margin-top: 35px;
+  background-color: #fff;
+  border: 1px solid #8c8281;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form .signup-google .google {
+  font-size: 26px;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 15px;
+  color: #4267B2;
+}
+
+.form .signup-google span {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form .by-clicking {
+  color: #9899A5;
+  text-align: center;
+  margin-top: 27px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.form .by-clicking p a{
+  font-weight: bold;
+  color: #9899A5;
+}
